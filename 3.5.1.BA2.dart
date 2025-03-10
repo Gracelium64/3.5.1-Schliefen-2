@@ -1,5 +1,5 @@
 void main () {
-  print("\x1B[2J\x1B[0;0H");
+    print("\x1B[2J\x1B[0;0H");
 
   int number = 5;
   String numberString = '';

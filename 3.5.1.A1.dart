@@ -2,6 +2,8 @@ import 'dart:io';
 
 void main () {
 
+    print("\x1B[2J\x1B[0;0H");
+
     for (int i = 1; i <= 100; i++) {
     print('Counting... $i');
     sleep(const Duration(milliseconds: 25));
