@@ -14,11 +14,11 @@ void main() {
     backwardsList.add(word[word.length - (i + 1)]);
     forwardString = forwardString + forwardList[i];
     backwardsString = backwardsString + backwardsList[i];
-  if (forwardString == backwardsString) {
-    isPalindrom = true;
-  } else {
-    isPalindrom = false;
-  }
+    if (forwardString == backwardsString) {
+     isPalindrom = true;
+    } else {
+      isPalindrom = false;
+   }
   }
   
 
